@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import products from "../__provisional__/data.json";
 
+import Collapse from "../components/Collapse";
+
 function SingleProduct (){
     const {productId} =useParams();
     const product = products.find((product) => product.id === productId);
