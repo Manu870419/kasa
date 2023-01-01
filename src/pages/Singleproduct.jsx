@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-undef */
+
 import { useParams } from "react-router-dom";
 import products from "../__provisional__/data.json";
 
