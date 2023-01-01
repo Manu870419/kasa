@@ -1,6 +1,10 @@
 import { useParams } from "react-router-dom";
 import products from "../__provisional__/data.json";
 
+import Rating from "../components/Rating";
+import Server from "../components/Server";
+import Slider from "../components/Slider";
+import Tags from "../components/Tags";
 import Collapse from "../components/Collapse";
 
 function SingleProduct (){
