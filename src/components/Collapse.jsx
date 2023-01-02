@@ -7,6 +7,7 @@ function Collapse ({ title, content}) {
         const arrow = e.target.lastchild;
 
         if (!divText.classList.contains("show")){
+            console.log(divText.classList)
             divText.classList.add("show");
             arrow.classList.add("rotate");
         }else{

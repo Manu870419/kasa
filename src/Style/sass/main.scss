@@ -12,9 +12,20 @@
 // 4 COMPONENTS
 @import "./04_component/banner";
 @import "./04_component/collapse";
+@import "./04_component/herobanner";
+@import "./04_component/rating";
+@import "./04_component/server";
+@import "./04_component/slider";
+@import "./04_component/tags";
+@import "./04_component/thumbnails";
 
 // 5 LAYOUTS
+@import "./05_layouts/stylednavbar";
+@import "./05_layouts/footer";
 
 // 6 PAGES
-
+@import "./06_pages/about";
+@import "./06_pages/home";
+@import "./06_pages/pagenotfound";
+@import "./06_pages/singleproduct";
 // 7 THEMES
