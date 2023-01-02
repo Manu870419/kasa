@@ -1,7 +1,7 @@
 .slider {
     position: relative;
 
-    &__activePicture {
+    &__active-picture {
         height: 225px;
         width: 100%;
         transform: scale(1);
@@ -20,7 +20,7 @@
         }
     }
 
-    &__inactivePicture {
+    &__inactive-picture {
         transform: scale(1.05);
         transition: transform 300ms;
     }
@@ -54,7 +54,7 @@
         right: 0;
     }
 
-    &__nextIcon {
+    &__next-icon {
         margin-right: 5px;
     }
 
@@ -62,8 +62,8 @@
         margin-left: 5px;
     }
 
-    &__nextIcon,
-    &__previousIcon {
+    &__next-icon,
+    &__previous-icon {
         height: 16px;
         filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
         @include media-query(small) {
