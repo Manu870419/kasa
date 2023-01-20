@@ -1,11 +1,11 @@
 import Banner from "../components/Banner";
 import aboutData from "../__provisional__/aboutData";
 import Collapse from "../components/Collapse";
-import imageBanner from "../design/aboutbannerDesktop.png";
+import imageBanner from "../assets/img/aboutbannerDesktop.png";
 
-function About () {
+function About() {
     // Basculer pour afficher le contenu dans la liste déroulante par titre
-    function content (title) {
+    function content(title) {
         switch (title) {
             case "fiability":
                 return aboutData.fiability;
@@ -21,15 +21,17 @@ function About () {
         }
     };
     return (
-        <div className="about">
-            <Banner image={imageBanner} />
-            <div className="about__dropdowns">
-                <Collapse title="fiabilité" content={content("fiability")} />
-                <Collapse title="respect" content={content("respect")} />
-                <Collapse title="service" content={content("service")} />
-                <Collapse title="sécurité" content={content("sécurity")} />
-            </div>
-        </div>
+        <main className="main">
+            <section className="about">
+                <Banner image={imageBanner} />
+                <div className="about__dropdowns">
+                    <Collapse title="fiabilité" content={content("fiability")} />
+                    <Collapse title="respect" content={content("respect")} />
+                    <Collapse title="service" content={content("service")} />
+                    <Collapse title="sécurité" content={content("sécurity")} />
+                </div>
+            </section>
+        </main>
     );
 };
 

@@ -1,33 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import image from "../design/banner.png";
-import products from "../__provisional__/data.json";
 import marketdata from "../__provisional__/aboutData";
-import Herobanner from "../components/Herobanner";
-import Thumbnails from "../components/Thumbnails";
+import Mainbanner from "../components/Mainbanner";
+import image from "../assets/img/banner.png";
+import Realestate from "../components/Realestate";
 
-const slogan =marketdata.slogan;
+const slogan = marketdata.slogan;
 
-function Products () {
-    return(
-        <div className="home">
-            <div className="home__banner">
-                <Herobanner image={image} title={slogan} />
-            </div>{""}
-            <section className="home__products">
-                {products.map((product) =>{
-                    return(
-                        <article key={product.id}>
-                            <Link to={`/products/${product.id}`}>
-                                <Thumbnails image={product.cover} title={product.title} />
-                            </Link>
-                        </article>
-                    );
-                })}
-            </section>
-        </div>
+const Home = () => {
+    return (
+        <main className="main">
+            <Mainbanner image={image} title={slogan} />
+            <Realestate />
+        </main>
     );
 };
 
-export default Products;
+export default Home;

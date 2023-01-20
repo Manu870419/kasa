@@ -1,31 +1,31 @@
 import React from "react";
 
 // Style
-import redStar from "../design/redStar.svg";
-import greyStar from "../design/greyStar.svg";
+import redStar from "../assets/img/redStar.svg";
+import greyStar from "../assets/img/greyStar.svg";
 
-function Rating ({ rating}) {
+function Rating({ rating }) {
     const stars = [1, 2, 3, 4, 5];
 
-    return(
+    return (
         <div className="rating">
             {/* Boucle pour afficher l'étoile par note*/}
             {stars.map((star) =>
-            rating >= star ? (
-                <img 
-                key={star.toString()}
-                className="rating__icon"
-                src={redStar}
-                alt=""
-                /> 
-            ) : (
-                <img
-                key={star.toString()}
-                className="rating__icon"
-                src={greyStar}
-                alt=""
-                />
-            ))}
+                rating >= star ? (
+                    <img
+                        key={star.toString()}
+                        className="rating__icon"
+                        src={redStar}
+                        alt=""
+                    />
+                ) : (
+                    <img
+                        key={star.toString()}
+                        className="rating__icon"
+                        src={greyStar}
+                        alt=""
+                    />
+                ))}
         </div>
     );
 

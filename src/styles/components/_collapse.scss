@@ -13,6 +13,7 @@
     &__button {
         color: $light-grey;
         width: 100%;
+        padding: 10px;
         border: none;
         border-radius: 5px;
         background-color: $primary-color;
@@ -33,6 +34,7 @@
         }
         @include media-query(large) {
             height: 52px;
+            font-size: 18px;
         }
     }
 
@@ -71,6 +73,7 @@
             font-size: 14px;
         }
         @include media-query(large) {
+            font-family: 'Montserrat';
             font-size: 18px;
         }
     }

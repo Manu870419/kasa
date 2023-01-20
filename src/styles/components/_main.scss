@@ -1,0 +1,24 @@
+.main {
+  margin: 0px 100px;
+  @include media-query(small) {
+    margin: 0px 2%;
+  }
+  @include media-query(medium) {
+    margin: 0px 5%;
+  }
+  &__title {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    color: $white;
+    width: 705px;
+    height: 68px;
+    margin-top: 249px;
+    margin-left: 373px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+
+  }
+}

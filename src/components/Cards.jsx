@@ -1,7 +1,7 @@
 import React from "react";
 
-function Herobanner ({ image, title}) {
-    return(
+function Cards({ image, title }) {
+    return (
         <div className="thumb">
             <img src={image} alt="" className="thumb__img" />
             <div className="thumb__overlay"></div>
@@ -10,4 +10,4 @@ function Herobanner ({ image, title}) {
     );
 };
 
-export default Herobanner;
+export default Cards;
