@@ -1,6 +1,6 @@
 import React from "react";
 
-function Collapse({ title, content }) {
+function Collapse({ title, description, equipements }) {
     const isCollapse = (e) => {
         e.preventDefault();
         const divText = e.target.nextSibling;
@@ -15,21 +15,21 @@ function Collapse({ title, content }) {
         }
     };
     return (
-        <section className="collapse__description ">
+        <section className="collapse">
             <button type="button" className="collapse__button" onClick={isCollapse}>
                 {title}
 
                 <p className="collapse__arrow">&lt;</p>
             </button>
             <div className="collapse__content">
-                {Array.isArray(content) ? (
+                {Array.isArray(equipements) ? (
                     <ul className="collapse__list">
-                        {content.map((equipements, index) => (
+                        {equipements.map((equipements, index) => (
                             <li key={index} className="collapse__list-element">{equipements}</li>
                         ))}
                     </ul>
                 ) : (
-                    <p className="collapse__text">{content}</p>
+                    <p className="collapse__text">{description} </p>
                 )}
 
             </div>

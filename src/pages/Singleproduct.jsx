@@ -7,11 +7,11 @@ import Slider from "../components/Slider";
 import Tags from "../components/Tags";
 import Collapse from "../components/Collapse";
 
+
 function SingleProduct() {
     const { productId } = useParams();
     const product = products.find((product) => product.id === productId);
-    const { title, location, rating, host, equipements, description, pictures } = product;
-
+    const { title, location, rating, host, equipments, description, pictures } = product;
     return (
         <main className="singleproduct">
             <Slider slides={pictures} />
@@ -31,9 +31,10 @@ function SingleProduct() {
                 </div>
             </div>
             <div className="singleproduct__dropdowns">
-                <Collapse title="description" content={description} />
-                <Collapse title="équipement" content={equipements} />
+                <Collapse title="description" description={description} />
+                <Collapse title="Équipements" equipements={equipments} />
             </div>
+
         </main>
 
     )

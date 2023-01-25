@@ -5,7 +5,7 @@ import imageBanner from "../assets/img/aboutbannerDesktop.png";
 
 function About() {
     // Basculer pour afficher le contenu dans la liste déroulante par titre
-    function content(title) {
+    function description(title) {
         switch (title) {
             case "fiability":
                 return aboutData.fiability;
@@ -25,10 +25,10 @@ function About() {
             <section className="about">
                 <Banner image={imageBanner} />
                 <div className="about__dropdowns">
-                    <Collapse title="fiabilité" content={content("fiability")} />
-                    <Collapse title="respect" content={content("respect")} />
-                    <Collapse title="service" content={content("service")} />
-                    <Collapse title="sécurité" content={content("sécurity")} />
+                    <Collapse title="fiabilité" description={description("fiability")} />
+                    <Collapse title="respect" description={description("respect")} />
+                    <Collapse title="service" description={description("service")} />
+                    <Collapse title="sécurité" description={description("sécurity")} />
                 </div>
             </section>
         </main>
