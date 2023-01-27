@@ -1,0 +1,14 @@
+.containerSlide {
+    width: 500px;
+    margin: auto;
+}
+
+.containerSlide img {
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    background-size: cover;
+    height: 415px;
+    width: 1240px;
+    border-radius: 25px;
+}

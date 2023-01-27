@@ -1,29 +1,28 @@
 import React from "react";
-
-// Style
 import redStar from "../assets/img/redStar.svg";
 import greyStar from "../assets/img/greyStar.svg";
 
-function Rating({ rating }) {
+function Rating(props) {
+    const rating = Number(props.value)
     const stars = [1, 2, 3, 4, 5];
 
     return (
         <div className="rating">
             {/* Boucle pour afficher l'étoile par note*/}
-            {stars.map((star) =>
-                rating >= star ? (
+            {stars.map((score) =>
+                rating >= score ? (
                     <img
-                        key={star.toString()}
+                        key={score.toString()}
                         className="rating__icon"
                         src={redStar}
-                        alt=""
+                        alt="étoile pleine"
                     />
                 ) : (
                     <img
-                        key={star.toString()}
+                        key={score.toString()}
                         className="rating__icon"
                         src={greyStar}
-                        alt=""
+                        alt="étoile vide"
                     />
                 ))}
         </div>
