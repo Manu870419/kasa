@@ -1,6 +1,6 @@
-// react framework
 import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate, } from 'react-router-dom';
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import House from './pages/Houses';

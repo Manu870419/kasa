@@ -45,4 +45,4 @@ function Slider(props) {
 
 };
 
-export default Carousel;
+export default Slider;

@@ -57,4 +57,3 @@ function House() {
 }
 
 export default House;
-export default House;
