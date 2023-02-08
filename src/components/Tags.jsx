@@ -1,10 +1,13 @@
 import React from "react";
 
-function Tags({ getTag}) {
-    return(
-        <div className="tag">
-            <p className="tag__text">{getTag}</p>
-        </div>
+function Tags(props) {
+    const tags = props.tags;
+    return (
+        <ul className="tags">
+            {tags.map((tag) => (
+                <li key={tag}>{tag}</li>
+            ))}
+        </ul>
     );
 };
 
