@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin: 7rem auto 1rem auto;
-    max-width: 124rem;
+    margin: 105px auto 15px auto;
+    max-width: 1860px;
 }
 
 .slider-container,
 .slider img {
-    height: 50rem;
+    height: 750px;
     border-radius: 25px;
 }
 
@@ -40,7 +40,7 @@
 
 .page-count {
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 30px;
     position: absolute;
     bottom: 3%;
 }
