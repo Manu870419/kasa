@@ -30,7 +30,7 @@ function Slider(props) {
                 onClick={nextSlide}>
                 < img src={right} alt="next" />
             </span>
-            <div className="carrousel">
+            <div className="slider">
                 {pictures.map((picture, index) => (
                     <div key={index} className={index}>
                         {index === current && <img src={picture} alt="" />}

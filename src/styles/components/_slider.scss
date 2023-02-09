@@ -1,92 +1,46 @@
-.slider {
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    margin: 7rem auto 1rem auto;
+    max-width: 124rem;
+}
 
-    &__active-picture {
-        height: 225px;
+.slider-container,
+.slider img {
+    height: 50rem;
+    border-radius: 25px;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    img {
         width: 100%;
-        transform: scale(1);
-        transition: transform 300ms;
-        @include media-query(small) {
-            height: 295px;
-        }
-        @include media-query(medium) {
-            height: 335px;
-        }
-        @include media-query(large) {
-            height: 375px;
-        }
-        @include media-query(xlarge) {
-            height: 415px;
-        }
-    }
-
-    &__inactive-picture {
-        transform: scale(1.05);
-        transition: transform 300ms;
-    }
-
-    &__picture {
-        width: inherit;
-        height: inherit;
         object-fit: cover;
-        border-radius: 10px;
-        @include media-query(small) {
-            border-radius: 15px;
-        }
-        @include media-query(medium) {
-            border-radius: 20px;
-        }
-        @include media-query(large) {
-            border-radius: 25px;
-        }
     }
+}
 
-    &__previous,
-    &__next {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+.arrow {
+    position: absolute;
+}
 
-    &__next {
-        right: 0;
-    }
+.arrow-left {
+    left: 3%;
+}
 
-    &__next-icon {
-        margin-right: 5px;
-    }
+.arrow-right {
+    right: 3%;
+}
 
-    &__previousIcon {
-        margin-left: 5px;
-    }
+.no-arrow {
+    content-visibility: hidden;
+}
 
-    &__next-icon,
-    &__previous-icon {
-        height: 16px;
-        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
-        @include media-query(small) {
-            height: 27px;
-        }
-        @include media-query(medium) {
-            height: 38px;
-        }
-        @include media-query(large) {
-            height: 50px;
-        }
-    }
-
-    &__counter {
-        display: none;
-        @include media-query(large) {
-            display: block;
-            color: $white;
-            position: absolute;
-            bottom: 25px;
-            font-weight: 500;
-            left: 50%;
-            filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
-        }
-    }
+.page-count {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    position: absolute;
+    bottom: 3%;
 }

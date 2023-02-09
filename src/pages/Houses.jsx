@@ -17,7 +17,7 @@ function House() {
 
     return (
         <main>
-            <section className="carrousel-container" key={House.id}>
+            <section className="house-container" key={House.id}>
                 <Slider
                     source={House.pictures}
                     slidesNumber={House.pictures.length}
