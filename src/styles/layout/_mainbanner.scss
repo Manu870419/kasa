@@ -9,16 +9,6 @@
   
   &__title{
     display: flex;
-<<<<<<< HEAD
-  
-    &__title{
-      display: flex;
-      position: absolute;
-      justify-items: center;
-      align-self: center;
-      font-size: 50px;
-      font-weight: 300;
-=======
     position: absolute;
     justify-items: center;
     align-self: center;
@@ -38,25 +28,11 @@
     }
 
     @include media-query(large) {
->>>>>>> 443709254f5b852baf2c6944966c4d26dd9e2d53
       padding: 20%;
       font-size: 50px;
     }
   }
   
-<<<<<<< HEAD
-    &__overlay {
-      position: absolute;
-      top: 0;
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-      height: 100%;
-      width: 100%;
-      border-radius: inherit;
-     
-    }
-}
-.thunb__img{
-=======
   &__overlay {
     position: absolute;
     top: 0;
@@ -68,7 +44,6 @@
 }
 
 .thunb__img {
->>>>>>> 443709254f5b852baf2c6944966c4d26dd9e2d53
   width: 100%;
   height: inherit;
   object-fit: cover;
