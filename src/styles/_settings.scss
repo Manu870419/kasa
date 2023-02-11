@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "font-1";
-    src: url(../assets/fonts/JosefinSans-Medium.ttf);
-  }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
   
   @mixin media-query($key) {
     $size: map-get($breakpoints, $key);
@@ -9,8 +6,6 @@
       @content;
     }
   }
-  
-  $font-1: "font-1", sans-serif;
   
   $primary-color: #ff6060;
   $light-grey: #f7f7f7;
