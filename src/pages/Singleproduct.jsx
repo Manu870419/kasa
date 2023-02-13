@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import products from "../__provisional__/data.json";
+import products from "../data/data.json";
 
 import Rating from "../components/Rating";
 import Server from "../components/Server";

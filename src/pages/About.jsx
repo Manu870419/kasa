@@ -1,5 +1,5 @@
 import Banner from "../components/Banner";
-import aboutData from "../__provisional__/aboutData";
+import aboutData from "../data/aboutData";
 import Collapse from "../components/Collapse";
 import imageBanner from "../assets/img/aboutbannerDesktop.png";
 
