@@ -1,5 +1,4 @@
 import React from "react";
-
 import marketdata from "../data/aboutData";
 import Mainbanner from "../components/Mainbanner";
 import image from "../assets/banner.png";

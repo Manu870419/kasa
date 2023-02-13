@@ -14,5 +14,4 @@ function Server({ host }) {
         </div>
     );
 };
-
 export default Server;

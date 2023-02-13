@@ -1,11 +1,10 @@
 import React from "react";
 
-function Collapse({ title, description, equipements }) {
+function Collapse({ title, description, equipments }) {
     const isCollapse = (e) => {
         e.preventDefault();
         const divText = e.target.nextSibling;
         const arrow = e.target.lastChild;
-
         if (!divText.classList.contains("show")) {
             divText.classList.add("show");
             arrow.classList.add("rotate");
@@ -22,10 +21,10 @@ function Collapse({ title, description, equipements }) {
                 <p className="collapse__arrow">&lt;</p>
             </button>
             <div className="collapse__content">
-                {Array.isArray(equipements) ? (
+                {Array.isArray(equipments) ? (
                     <ul className="collapse__list">
-                        {equipements?.map((equipements, index) => (
-                            <li key={index} className="collapse__list-element">{equipements}</li>
+                        {equipments.map((equipments, index) => (
+                            <li key={index} className="collapse__list-element">{equipments}</li>
                         ))}
                     </ul>
                 ) : (
@@ -33,6 +32,7 @@ function Collapse({ title, description, equipements }) {
                 )}
 
             </div>
+
         </section>
     );
 };
