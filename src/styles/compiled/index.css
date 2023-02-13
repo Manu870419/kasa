@@ -300,6 +300,34 @@ h2.thumb__title {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .home__products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home__products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+    background: #f7f7f7;
+    padding: 50px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .home__products {
+    row-gap: 40px;
+    column-gap: 60px;
+  }
+}
+
 .server {
   display: flex;
   justify-content: flex-end;
@@ -354,35 +382,40 @@ h2.thumb__title {
   margin: 105px auto 15px auto;
   max-width: 1860px;
 }
-.slider .slider,
-.slider .slider img {
-  width: 1240px;
-  height: 415px;
+.slider__picture {
   border-radius: 25px;
+  object-fit: cover;
 }
-.slider .slider {
+
+.slider {
   width: 100%;
   margin: auto;
 }
-.slider .slider img {
+.slider img {
   width: 100%;
-  object-fit: cover;
 }
-.slider .arrow {
+
+.arrow {
   position: absolute;
+  width: 47px;
+  height: 79px;
 }
-.slider .arrowLeft {
+
+.arrowLeft {
   left: 3%;
 }
-.slider .arrowRight {
+
+.arrowRight {
   right: 3%;
 }
-.slider .no-arrow {
+
+.no-arrow {
   content-visibility: hidden;
 }
-.slider .page-count {
+
+.page-count {
   color: #fff;
-  font-size: 30px;
+  font-size: 18px;
   position: absolute;
   bottom: 3%;
 }
@@ -434,12 +467,6 @@ h2.thumb__title {
   overflow: hidden;
   display: flex;
 }
-.homeBanner__img {
-  width: 100%;
-  height: inherit;
-  object-fit: cover;
-  border-radius: inherit;
-}
 .homeBanner__title {
   display: flex;
   position: absolute;
@@ -475,6 +502,13 @@ h2.thumb__title {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
   height: 100%;
   width: 100%;
+  border-radius: inherit;
+}
+
+.thunb__img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
   border-radius: inherit;
 }
 
@@ -616,34 +650,6 @@ h2.thumb__title {
     margin: 1%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .home__products {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 20px;
-    margin-top: 40px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .home__products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    row-gap: 30px;
-    background: #f7f7f7;
-    padding: 50px;
-    border-radius: 25px;
-    margin-bottom: 40px;
-  }
-}
-@media only screen and (min-width: 1240px) {
-  .home__products {
-    row-gap: 40px;
-    column-gap: 60px;
   }
 }
 
