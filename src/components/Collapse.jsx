@@ -1,13 +1,19 @@
-import React, { useState } from "react";
-import arrow from "../assets/arrow-down.svg"
+import React from "react";
 
-function Collapse(props) {
-    const [toggleIsClosed, setToggle] = useState(false);
-    function toggleIsOpen() {
-        setToggle(!toggleIsClosed);
+function Collapse({ title, description, equipements }) {
+    const isCollapse = (e) => {
+        e.preventDefault();
+        const divText = e.target.nextSibling;
+        const arrow = e.target.lastChild;
+        if (!divText.classList.contains("show")) {
+            divText.classList.add("show");
+            arrow.classList.add("rotate");
+        } else {
+            divText.classList.remove("show");
+            arrow.classList.remove("rotate");
+        }
     };
     return (
-<<<<<<< HEAD
         <section className="collapse">
             <button type="button" className="collapse__button" onClick={isCollapse}>
                 {title}
@@ -25,31 +31,9 @@ function Collapse(props) {
                     <p className="collapse__text">{description} </p>
                 )}
 
-=======
-        <>
-            <div className="collapse">
-                <div className="collapse__title" onClick={toggleIsOpen}>
-                    <h2>{props.title}</h2>
-                    <img
-                        className={toggleIsClosed ? "arrow_down" : "arrow_up"}
-                        src={arrow}
-                        alt={toggleIsClosed
-                            ? "Afficher les détails"
-                            : "Cacher les détails"
-                        }
-                    />
-                </div>
-                <div className="collapse__texte">
-                    <div
-                        hidden={toggleIsClosed ? false : true}
-                        className={toggleIsClosed ? "text-open" : "text-closed"}>
-                        {props.texte}
-                    </div>
-                </div>
->>>>>>> 443709254f5b852baf2c6944966c4d26dd9e2d53
             </div>
 
-        </>
+        </section>
     );
 };
 

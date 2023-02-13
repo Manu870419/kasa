@@ -9,8 +9,8 @@ import Collapse from "../components/Collapse";
 
 
 function SingleProduct() {
-    const { productId } = useParams();
-    const product = products.find((product) => product.id === productId);
+    const params = useParams();
+    const product = products.find((product) => product.id === params.id);
     const { title, location, rating, host, equipments, description, pictures } = product;
     return (
         <main className="singleproduct">
