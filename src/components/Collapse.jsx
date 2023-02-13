@@ -1,6 +1,6 @@
 import React from "react";
 
-function Collapse({ title, description, equipments }) {
+function Collapse({ title, description, equipements }) {
     const isCollapse = (e) => {
         e.preventDefault();
         const divText = e.target.nextSibling;
@@ -21,10 +21,10 @@ function Collapse({ title, description, equipments }) {
                 <p className="collapse__arrow">&lt;</p>
             </button>
             <div className="collapse__content">
-                {Array.isArray(equipments) ? (
+                {Array.isArray(equipements) ? (
                     <ul className="collapse__list">
-                        {equipments.map((equipments, index) => (
-                            <li key={index} className="collapse__list-element">{equipments}</li>
+                        {equipements?.map((equipements, index) => (
+                            <li key={index} className="collapse__list-element">{equipements}</li>
                         ))}
                     </ul>
                 ) : (
