@@ -9,10 +9,10 @@
 @import "./components/tags";
 @import "./components/mainbanner";
 
-@import "./components/navigation";
-@import "./components/footer";
+@import "./layout/navigation";
+@import "./layout/footer";
 
-@import "./components/about";
+@import "./pages/about";
 @import "./components/realestate";
-@import "./components/error";
-@import "./components/singleproduct";
+@import "./pages/error";
+@import "./pages/singleproduct";
