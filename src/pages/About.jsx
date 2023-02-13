@@ -1,7 +1,7 @@
 import Banner from "../components/Banner";
 import aboutData from "../data/aboutData";
 import Collapse from "../components/Collapse";
-import imageBanner from "../assets/img/aboutbannerDesktop.png";
+import imageBanner from "../assets/aboutbannerDesktop.png";
 
 function About() {
     // Basculer pour afficher le contenu dans la liste déroulante par titre

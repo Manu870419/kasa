@@ -1,6 +1,6 @@
 import React from "react";
-import redStar from "../assets/img/redStar.svg";
-import greyStar from "../assets/img/greyStar.svg";
+import redStar from "../assets/redStar.svg";
+import greyStar from "../assets/greyStar.svg";
 
 function Rating({ rating }) {
 
@@ -15,14 +15,14 @@ function Rating({ rating }) {
                         key={score.toString()}
                         className="rating__icon"
                         src={redStar}
-                        alt=""
+                        alt="étoile pleine"
                     />
                 ) : (
                     <img
                         key={score.toString()}
                         className="rating__icon"
                         src={greyStar}
-                        alt=""
+                        alt="étoile vide"
                     />
                 ))}
         </div>

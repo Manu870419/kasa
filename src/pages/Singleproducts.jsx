@@ -20,7 +20,7 @@ function SingleProduct() {
                     <h1 className="singleproduct__title">{title}</h1>
                     <p className="singleproduct__location">{location}</p>
                     <div className="singleproduct__tags">
-                        {product.tags.map((tag, index) => (
+                        {product.tags?.map((tag, index) => (
                             <Tags key={index} getTag={tag} />
                         ))}
                     </div>

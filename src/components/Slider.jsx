@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import left from "../assets/img/arrowLeft.svg";
-import right from "../assets/img/arrowRight.svg";
+import left from "../assets/arrowLeft.svg";
+import right from "../assets/arrowRight.svg";
 
 function Slider({ slides }) {
     const pictures = slides;
