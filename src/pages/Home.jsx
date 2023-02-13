@@ -1,8 +1,8 @@
 import React from "react";
 
-import marketdata from "../data/aboutData";
+import marketdata from "../__provisional__/aboutData";
 import Mainbanner from "../components/Mainbanner";
-import image from "../assets/banner.png";
+import image from "../assets/img/banner.png";
 import Realestate from "../components/Realestate";
 
 const slogan = marketdata.slogan;

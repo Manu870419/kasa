@@ -1,6 +1,7 @@
 import React from "react";
 
-import logoFooter from "../assets/logofooter.png";
+// Style
+import logoFooter from "../assets/img/logofooter.png";
 
 function Footer() {
     const effectiveYear = new Date().getFullYear();

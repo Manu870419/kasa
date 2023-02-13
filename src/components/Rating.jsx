@@ -1,6 +1,8 @@
 import React from "react";
-import full from "../assets/redStar.svg";
-import empty from "../assets/greyStar.svg";
+
+// Style
+import redStar from "../assets/img/redStar.svg";
+import greyStar from "../assets/img/greyStar.svg";
 
 function Rating({ rating }) {
     const stars = [1, 2, 3, 4, 5];
@@ -13,15 +15,15 @@ function Rating({ rating }) {
                     <img
                         key={star.toString()}
                         className="rating__icon"
-                        src={full}
-                        alt="étoile pleine"
+                        src={redStar}
+                        alt=""
                     />
                 ) : (
                     <img
                         key={star.toString()}
                         className="rating__icon"
-                        src={empty}
-                        alt="étoile vide"
+                        src={greyStar}
+                        alt=""
                     />
                 ))}
         </div>

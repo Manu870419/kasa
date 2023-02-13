@@ -7,6 +7,13 @@
     overflow: hidden;
     display: flex;
   
+    &__img {
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+      border-radius: inherit;
+    }
+  
     &__title{
       display: flex;
       position: absolute;
@@ -42,10 +49,4 @@
       border-radius: inherit;
      
     }
-}
-.thunb__img{
-  width: 100%;
-  height: inherit;
-  object-fit: cover;
-  border-radius: inherit;
-}
+  }

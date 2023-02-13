@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Cards from "./Cards";
-import products from "../data/data.json";
+import products from "../__provisional__/data.json";
 
 const Realestate = () => {
     return (

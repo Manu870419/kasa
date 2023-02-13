@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import products from "../data/data.json";
+import products from "../__provisional__/data.json";
 
 import Rating from "../components/Rating";
 import Server from "../components/Server";
@@ -20,7 +20,7 @@ function SingleProduct() {
                     <h1 className="singleproduct__title">{title}</h1>
                     <p className="singleproduct__location">{location}</p>
                     <div className="singleproduct__tags">
-                        {product.tags?.map((tag, index) => (
+                        {product.tags.map((tag, index) => (
                             <Tags key={index} getTag={tag} />
                         ))}
                     </div>
