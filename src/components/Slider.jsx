@@ -52,6 +52,7 @@ function Slider({ slides }) {
             </span>
         </>
     );
+
 };
 
 export default Slider;

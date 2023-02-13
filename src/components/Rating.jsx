@@ -4,30 +4,31 @@ import React from "react";
 import redStar from "../assets/img/redStar.svg";
 import greyStar from "../assets/img/greyStar.svg";
 
-function Rating({ rating }) {
-    const stars = [1, 2, 3, 4, 5];
+const fullRating = [1, 2, 3, 4, 5];
 
-    return (
-        <div className="rating">
-            {/* Boucle pour afficher l'étoile par note*/}
-            {stars.map((star) =>
-                rating >= star ? (
-                    <img
-                        key={star.toString()}
-                        className="rating__icon"
-                        src={redStar}
-                        alt=""
-                    />
-                ) : (
-                    <img
-                        key={star.toString()}
-                        className="rating__icon"
-                        src={greyStar}
-                        alt=""
-                    />
-                ))}
-        </div>
-    );
+return (
+    <div className="rating">
+        {/* Boucle pour afficher l'étoile par note*/}
+        {fullRating.map((score) =>
+            rating >= score ? (
+                <img
+<<<<<<< HEAD
+                    key={star.toString()}
+                    className="rating__icon"
+                    src={redStar}
+                    alt=""
+                />
+            ) : (
+                <img
+<<<<<<< HEAD
+                    key={star.toString()}
+                    className="rating__icon"
+                    src={greyStar}
+                    alt=""
+                />
+            ))}
+    </div>
+);
 
 };
 
