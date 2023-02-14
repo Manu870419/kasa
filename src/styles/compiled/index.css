@@ -365,12 +365,6 @@ h2.thumb__title {
   width: 47px;
   height: 79px;
 }
-@media only screen and (min-width: 320px) {
-  .arrow {
-    width: 15px;
-    height: 30px;
-  }
-}
 @media only screen and (min-width: 768px) {
   .arrow {
     width: 35px;
@@ -483,7 +477,7 @@ h2.thumb__title {
 @media only screen and (min-width: 320px) {
   .homeBanner__title {
     padding: 5%;
-    font-size: 24px;
+    font-size: 32px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -495,7 +489,7 @@ h2.thumb__title {
 @media only screen and (min-width: 992px) {
   .homeBanner__title {
     padding: 20%;
-    font-size: 50px;
+    font-size: 41px;
   }
 }
 .homeBanner__overlay {
@@ -565,7 +559,7 @@ h2.thumb__title {
   font-weight: 500;
   text-decoration: underline;
 }
-@media only screen and (min-width: 378px) {
+@media only screen and (min-width: 320px) {
   .navbar__links__style {
     font-size: small;
   }
