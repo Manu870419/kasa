@@ -1,4 +1,5 @@
 import React from "react";
+import Vector from "../assets/Vector.svg";
 
 function Collapse({ title, description, equipements }) {
     const isCollapse = (e) => {
@@ -17,8 +18,7 @@ function Collapse({ title, description, equipements }) {
         <section className="collapse">
             <button type="button" className="collapse__button" onClick={isCollapse}>
                 {title}
-
-                <p className="collapse__arrow">&lt;</p>
+                <img src={Vector} alt="" className="collapse__arrow" />
             </button>
             <div className="collapse__content">
                 {Array.isArray(equipements) ? (

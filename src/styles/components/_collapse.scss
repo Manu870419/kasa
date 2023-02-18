@@ -41,10 +41,10 @@
     &__arrow {
         margin-right: 15px;
         pointer-events: none;
-        transform: rotate(90deg);
+        transform: rotate(0);
         transition: transform 300ms;
         transform-origin: bottom -25%;
-        translate: -50% -50%;
+        translate: -50% -16%;
 
         @include media-query(medium) {
             height: 13px;
@@ -97,7 +97,7 @@
 }
 
 .rotate {
-    transform: rotate(270deg);
+    transform: rotate(180deg);
 }
 .show {
     max-height: 500px;
