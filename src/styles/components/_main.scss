@@ -30,4 +30,7 @@
   @include media-query(small) {
     margin: 0 2%;
   }
+  @media screen and (min-width:1024px){
+    margin: 0 5%;
+  } 
 }
