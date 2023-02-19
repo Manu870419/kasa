@@ -1,6 +1,37 @@
+.navbar{
+    @include media-query(small){
+        margin: 2% 5% 1% 6%;
+    }
+    @media screen and (min-width:375px) {
+        margin: 0 7% 1% 7%;
+    }
+    @media screen and (min-width:768px) {
+        margin: 3% 8% 2% 8%;
+    }
+    @media screen and (min-width:1440px) {
+        margin: 3% 10% 2% 10%;
+    }
+    
+}
+.navbar__links__style{
+    @media screen and (max-width:375px){
+        font-size: x-small;
+    }
+}
 .about {
     margin: 0 5%;
-
+    @include media-query(small) {
+        margin: 0;
+    }
+    @media screen and (min-width:375px) {
+        margin: 0 1%;
+    }
+    @include media-query(medium){
+        margin: 0 3%;
+    }
+    @media screen and (min-width:1024px){
+        margin:0;
+    }
     &__dropdowns {
         width: 100%;
         text-align: auto;

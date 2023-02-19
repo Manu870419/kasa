@@ -1,11 +1,15 @@
 .main {
   margin: 0px 100px;
-  @include media-query(small) {
-    margin: 0px 2%;
-  }
   @include media-query(medium) {
     margin: 0px 5%;
   }
+  @include media-query(large) {
+    margin: 0 2%;
+  }
+  @include media-query(xxlarge) {
+    margin: 0 5%;
+  }
+
   &__title {
     position: absolute;
     display: flex;
@@ -20,5 +24,10 @@
     font-weight: 500;
     font-size: 48px;
 
+  }
+}
+.singleproduct {
+  @include media-query(small) {
+    margin: 0 2%;
   }
 }

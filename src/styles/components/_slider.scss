@@ -8,26 +8,96 @@
 } 
 .slider__picture {
     width: 100%;
+    height: 500px;
     border-radius: 25px;
     object-fit: cover;
+    @include media-query(small){
+        width: 305px;
+        height: 255px;
+    }
+    @media screen and (min-width:345px) {
+        width: 295px;
+    }
+
+    @media screen and (min-width:350px) {
+        width: 300px;
+    }
+    @media screen and (min-width:375px) {
+        width: 323px;
+    }
+    @media screen and (min-width:405px) {
+        width: 348px;
+    } 
+    @media screen and (min-width:425px) {
+        width: 364px;
+    }
+    @media screen and (min-width:443px) {
+        width: 381px;
+    }
+
+    @include media-query(medium){
+        width: 660px;
+        height: 320px;
+    }
+    @include media-query(large){
+        width: 853px;
+    }
+    @media screen and (min-width:1024px){
+        width: 880px;
+        height: 390px;
+    }
+    @include media-query(xxlarge){
+        width: 1208px;
+        height: 415px;
+    }
 } 
+.slider__active-picture {
+    max-height: 500px;
+    min-height: 450px;
+    @include media-query(small) {
+        min-height: 260px;
+    }
+    @include media-query(xxlarge){
+        min-height: 450px;
+    }
+}
     
 
 .arrow {
     position: absolute;
     width: 47px;
     height: 79px;
-
+    @include media-query(small){
+        height: 0;
+    }
     @include media-query(medium) {
         width: 35px;
-        height: 60px;
+        height: 10px;
     }
 }
     
 .arrowLeft {
-    left: 3%;
+    left: 3%; 
+   
+    & img {
+        width: 23px;
+        height: 23px;
+        @include media-query(medium) {
+            height: 30px;
+        }
+    }
     @include media-query(small) {
-
+        left: -1%;
+    }
+     @media screen and (min-width:350px) {
+        left: 3%;
+    }
+   
+    @media screen and (min-width:375px) {
+        left: 3%;
+    }
+    @media screen and (min-width:425px) {
+        left: 2%;
     }
     @include media-query(xlarge) {
         left: 4%;
@@ -36,6 +106,27 @@
     
 .arrowRight {
     right: 3%;
+   
+    & img {
+        width: 23px;
+        height: 23px;
+        @include media-query(medium) {
+            height:30px;
+        }
+    }
+    @include media-query(small) {
+        right: -10%;
+    } 
+    @media screen and (min-width:375px){
+        right: -6%;
+    }
+  
+    @media screen and (min-width:375px) {
+        right: -5%;
+    }
+    @include media-query(medium) {
+        right: 1%;
+    }
 
     @include media-query(xlarge) {
         right: 4%;
@@ -53,11 +144,18 @@
     bottom: 3%;
     @include media-query(small){
         font-size: 10px;
+        margin-bottom: 25px;
     }
     @include media-query(medium){
         font-size: 14px;
     }
     @include media-query(large) {
         font-size: 18px;
+    }
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 4px;
+    }
+    @include media-query(xxlarge){
+        margin-bottom: 30px;
     }
 }
