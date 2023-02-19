@@ -393,7 +393,7 @@ h2.thumb__title {
 }
 @media only screen and (min-width: 320px) {
   .slider__picture {
-    width: 305px;
+    width: 300px;
     height: 255px;
   }
 }
@@ -407,9 +407,19 @@ h2.thumb__title {
     width: 300px;
   }
 }
+@media screen and (min-width: 370px) {
+  .slider__picture {
+    width: 318px;
+  }
+}
 @media screen and (min-width: 375px) {
   .slider__picture {
     width: 323px;
+  }
+}
+@media screen and (min-width: 395px) {
+  .slider__picture {
+    width: 338px;
   }
 }
 @media screen and (min-width: 405px) {
@@ -422,9 +432,79 @@ h2.thumb__title {
     width: 364px;
   }
 }
+@media screen and (min-width: 500px) {
+  .slider__picture {
+    width: 428px;
+  }
+}
 @media screen and (min-width: 443px) {
   .slider__picture {
     width: 381px;
+  }
+}
+@media screen and (min-width: 460px) {
+  .slider__picture {
+    width: 394px;
+  }
+}
+@media screen and (min-width: 470px) {
+  .slider__picture {
+    width: 402px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .slider__picture {
+    width: 429px;
+  }
+}
+@media screen and (min-width: 527px) {
+  .slider__picture {
+    width: 452px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .slider__picture {
+    width: 471px;
+  }
+}
+@media screen and (min-width: 572px) {
+  .slider__picture {
+    width: 490px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .slider__picture {
+    width: 514px;
+  }
+}
+@media screen and (min-width: 630px) {
+  .slider__picture {
+    width: 541px;
+  }
+}
+@media screen and (min-width: 670px) {
+  .slider__picture {
+    width: 575px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .slider__picture {
+    width: 602px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .slider__picture {
+    width: 608px;
+  }
+}
+@media screen and (min-width: 738px) {
+  .slider__picture {
+    width: 634px;
+  }
+}
+@media screen and (min-width: 746px) {
+  .slider__picture {
+    width: 640px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -433,20 +513,120 @@ h2.thumb__title {
     height: 320px;
   }
 }
+@media screen and (min-width: 803px) {
+  .slider__picture {
+    width: 690px;
+  }
+}
+@media screen and (min-width: 837px) {
+  .slider__picture {
+    width: 717px;
+  }
+}
+@media screen and (min-width: 877px) {
+  .slider__picture {
+    width: 753px;
+  }
+}
+@media screen and (min-width: 881px) {
+  .slider__picture {
+    width: 755px;
+  }
+}
+@media screen and (min-width: 902px) {
+  .slider__picture {
+    width: 774px;
+  }
+}
+@media screen and (min-width: 916px) {
+  .slider__picture {
+    width: 786px;
+  }
+}
+@media screen and (min-width: 956px) {
+  .slider__picture {
+    width: 820px;
+  }
+}
 @media only screen and (min-width: 992px) {
   .slider__picture {
-    width: 853px;
+    width: 910px;
   }
 }
 @media screen and (min-width: 1024px) {
   .slider__picture {
-    width: 880px;
+    width: 941px;
     height: 390px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1100px) {
   .slider__picture {
-    width: 1208px;
+    width: 1010px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .slider__picture {
+    width: 1067px;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .slider__picture {
+    width: 1085px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slider__picture {
+    width: 1103px;
+  }
+}
+@media screen and (min-width: 1230px) {
+  .slider__picture {
+    width: 1131px;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .slider__picture {
+    width: 1138px;
+  }
+}
+@media screen and (min-width: 1266px) {
+  .slider__picture {
+    width: 1162px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .slider__picture {
+    width: 1176px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .slider__picture {
+    width: 1194px;
+  }
+}
+@media screen and (min-width: 1320px) {
+  .slider__picture {
+    width: 1212px;
+  }
+}
+@media screen and (min-width: 1340px) {
+  .slider__picture {
+    width: 1230px;
+  }
+}
+@media screen and (min-width: 1372) {
+  .slider__picture {
+    width: 1260px;
+  }
+}
+@media screen and (min-width: 1379px) {
+  .slider__picture {
+    width: 1266px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .slider__picture {
+    width: 1286px;
     height: 415px;
   }
 }
@@ -497,7 +677,7 @@ h2.thumb__title {
 }
 @media only screen and (min-width: 320px) {
   .arrowLeft {
-    left: -1%;
+    left: 1%;
   }
 }
 @media screen and (min-width: 350px) {
@@ -515,9 +695,19 @@ h2.thumb__title {
     left: 2%;
   }
 }
+@media screen and (min-width: 827px) {
+  .arrowLeft {
+    left: 3%;
+  }
+}
 @media only screen and (min-width: 1240px) {
   .arrowLeft {
     left: 4%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .arrowLeft {
+    left: 3%;
   }
 }
 
@@ -535,10 +725,10 @@ h2.thumb__title {
 }
 @media only screen and (min-width: 320px) {
   .arrowRight {
-    right: -10%;
+    right: -8%;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 350px) {
   .arrowRight {
     right: -6%;
   }
@@ -546,6 +736,21 @@ h2.thumb__title {
 @media screen and (min-width: 375px) {
   .arrowRight {
     right: -5%;
+  }
+}
+@media screen and (min-width: 470px) {
+  .arrowRight {
+    right: -4%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .arrowRight {
+    right: -3%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .arrowRight {
+    right: -1%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -556,6 +761,11 @@ h2.thumb__title {
 @media only screen and (min-width: 1240px) {
   .arrowRight {
     right: 4%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .arrowRight {
+    right: 2%;
   }
 }
 
@@ -735,6 +945,11 @@ h2.thumb__title {
     margin: 2% 8% 2% 8%;
   }
 }
+@media screen and (min-width: 1067px) {
+  .navbar {
+    margin: 3% 7% 2% 7%;
+  }
+}
 .navbar__links {
   display: flex;
   width: 33%;
@@ -762,7 +977,6 @@ h2.thumb__title {
   align-items: center;
   justify-content: flex-end;
   font-weight: 500;
-  text-decoration: underline;
 }
 @media only screen and (min-width: 320px) {
   .navbar__links__style {
@@ -966,6 +1180,16 @@ h2.thumb__title {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .navbar {
+    margin: 3% 9% 2% 9%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    margin: 3% 5% 2% 5%;
+  }
+}
 @media screen and (min-width: 1024px) {
   .navbar {
     margin: 2% 5% 2% 6%;
@@ -977,9 +1201,191 @@ h2.thumb__title {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .main {
+    margin: 0 9%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .navbar {
+    margin: 3% 4% -30% 4%;
+  }
+}
+@media screen and (min-width: 350px) {
+  .navbar {
+    margin: 3% 7% -28% 7%;
+  }
+}
+@media screen and (min-width: 370px) {
+  .navbar {
+    margin: 3% 7% -26% 7%;
+  }
+}
+@media screen and (min-width: 395px) {
+  .navbar {
+    margin: 3% 7% -25% 7%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .navbar {
+    margin: 3% 7% -23% 7%;
+  }
+}
+@media screen and (min-width: 443px) {
+  .navbar {
+    margin: 3% 8% -22% 8%;
+  }
+}
+@media screen and (min-width: 460px) {
+  .navbar {
+    margin: 3% 8% -21% 8%;
+  }
+}
+@media screen and (min-width: 470px) {
+  .navbar {
+    margin: 3% 8% -20% 8%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .navbar {
+    margin: 3% 7% -19% 7%;
+  }
+}
+@media screen and (min-width: 512px) {
+  .navbar {
+    margin: 3% 8% -19% 8%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .navbar {
+    margin: 3% 7% -17% 7%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navbar {
+    margin: 3% 8% -17% 8%;
+  }
+}
+@media screen and (min-width: 630px) {
+  .navbar {
+    margin: 3% 7% -16% 7%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .navbar {
+    margin: 3% 8% -16% 8%;
+  }
+}
+@media screen and (min-width: 670px) {
+  .navbar {
+    margin: 3% 7% -14% 7%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .navbar {
+    margin: 3% 7% -13% 7%;
+  }
+}
+@media screen and (min-width: 710px) {
+  .navbar {
+    margin: 3% 7% -12% 7%;
+  }
+}
+@media screen and (min-width: 734px) {
+  .navbar {
+    margin: 3% 9% -12% 9%;
+  }
+}
+@media screen and (min-width: 746px) {
+  .navbar {
+    margin: 3% 7% -11% 7%;
+  }
+}
+@media screen and (min-width: 794px) {
+  .navbar {
+    margin: 3% 8% -10% 8%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar {
+    margin: 3% 7% -10% 7%;
+  }
+}
+@media screen and (min-width: 808px) {
+  .navbar {
+    margin: 3% 7% -9% 7%;
+  }
+}
+@media screen and (min-width: 850px) {
+  .navbar {
+    margin: 3% 9% -8% 9%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navbar {
+    margin: 2% 9% -7% 9%;
+  }
+}
+@media screen and (min-width: 936px) {
+  .navbar {
+    margin: 3% 9% -7% 9%;
+  }
+}
+@media screen and (min-width: 956px) {
+  .navbar {
+    margin: 3% 7% -8% 7%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .navbar {
+    margin: 2% 9% -8% 9%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    margin: 2% 7% -6% 7%;
+  }
+}
+@media screen and (min-width: 320px) {
+  .navbar {
+    margin: 2% 9% 2% 9%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .navbar {
+    margin: 2% 9% 2% 9%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .navbar {
+    margin: 2% 10% 2% 10%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar {
+    margin: 2% 9% 2% 9%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    margin: 2% 5% 2% 5%;
+  }
+}
+
 .singleproduct {
-  margin: 0 7%;
+  margin: 0 3%;
   color: #ff6060;
+}
+@media screen and (min-width: 325px) {
+  .singleproduct {
+    margin: 0 7%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .singleproduct {
+    margin: 0 4%;
+  }
 }
 .singleproduct__content {
   margin-top: 20px;

@@ -1,4 +1,10 @@
 .navbar{
+    @media screen and (max-width:991px){
+        margin: 3% 9% 2% 9%;
+    } 
+    @include media-query(large){
+        margin: 3% 5% 2% 5%;
+    }
     @media screen and (min-width:1024px) {
         margin: 2% 5% 2% 6%;
     }
@@ -6,4 +12,9 @@
         margin: 2% 6% 2% 6%;
     }
      
+}
+.main{
+    @media screen and (max-width:991px) {
+        margin: 0 9%;
+    }
 }

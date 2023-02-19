@@ -30,6 +30,9 @@
   @media screen and (min-width:1024px) {
     margin: 2% 8% 2% 8%;
   }
+  @media screen and (min-width:1067px) {
+    margin: 3% 7% 2% 7%;
+  }
  
   
   &__links {
@@ -54,7 +57,6 @@
       align-items: center;
       justify-content: flex-end;
       font-weight: 500;
-      text-decoration: underline;
       @include media-query(small) {
        font-size: small;
       }
