@@ -19,7 +19,7 @@
     box-sizing: inherit;
     @include media-query(small) {
       padding: 5%;
-      font-size: 32px;
+      font-size: 29px;
     }
 
     @include media-query(medium){
