@@ -57,9 +57,7 @@
       align-items: center;
       justify-content: flex-end;
       font-weight: 500;
-      @include media-query(small) {
-       font-size: small;
-      }
+
       @include media-query(medium) {
        font-size: medium;
       }
@@ -83,4 +81,12 @@
     
   }
  
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $primary-color;
+  }
 }

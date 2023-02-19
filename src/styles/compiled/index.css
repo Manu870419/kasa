@@ -973,11 +973,6 @@ h2.thumb__title {
   justify-content: flex-end;
   font-weight: 500;
 }
-@media only screen and (min-width: 320px) {
-  .navbar__links__style {
-    font-size: small;
-  }
-}
 @media only screen and (min-width: 768px) {
   .navbar__links__style {
     font-size: medium;
@@ -1005,6 +1000,14 @@ h2.thumb__title {
   .navbar__img {
     height: 68px;
   }
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ff6060;
 }
 
 .footer {
