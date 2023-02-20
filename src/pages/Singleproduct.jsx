@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import products from "../data/data.json";
 
@@ -12,9 +13,12 @@ import Collapse from "../components/Collapse";
 function SingleProduct() {
     const params = useParams();
     const product = products.find((product) => product.id === params.id);
+
+    if (!product) return <Error />;
+
     const { title, location, rating, host, equipments, description, pictures } = product;
 
-    if (!SingleProduct) return <Error />;
+
 
     return (
         <main className="singleproduct">
