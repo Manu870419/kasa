@@ -12,10 +12,10 @@ import Collapse from "../components/Collapse";
 function SingleProduct() {
     const params = useParams();
     const product = products.find((product) => product.id === params.id);
-
-    if (!SingleProduct) return <Error />
-
     const { title, location, rating, host, equipments, description, pictures } = product;
+
+    if (!SingleProduct) return <Error />;
+
     return (
         <main className="singleproduct">
             <Slider slides={pictures} />
