@@ -1202,6 +1202,10 @@ a:hover {
   }
 }
 
+main {
+  margin: 0;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     margin: 3% 9% 2% 9%;
