@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.80331979.css",
+    "main.js": "/kasa/static/js/main.8116357c.js",
+    "static/media/aboutbannerDesktop.png": "/kasa/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
+    "static/media/banner.png": "/kasa/static/media/banner.912a2785d9054e272f03.png",
+    "static/media/logo.svg": "/kasa/static/media/logo.b155131fa8b9f91a4a2958af7541fd8b.svg",
+    "index.html": "/kasa/index.html",
+    "static/media/arrowRight.svg": "/kasa/static/media/arrowRight.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/arrowLeft.svg": "/kasa/static/media/arrowLeft.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/greyStar.svg": "/kasa/static/media/greyStar.38752bcafc1045fa6b545169fb0eb2eb.svg",
+    "static/media/redStar.svg": "/kasa/static/media/redStar.a21f8abfc51a23975832b769119429bd.svg",
+    "static/media/Vector.svg": "/kasa/static/media/Vector.d0393e6dd313baf543be9c1f2b575cde.svg",
+    "main.80331979.css.map": "/kasa/static/css/main.80331979.css.map",
+    "main.8116357c.js.map": "/kasa/static/js/main.8116357c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80331979.css",
+    "static/js/main.8116357c.js"
+  ]
+}
