@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Manu870419.github.io/kasa",
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss": "sass --watch src/styles/index.scss:src/styles/compiled/index.css"
+    "scss": "sass --watch src/styles/index.scss:src/styles/compiled/index.css",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.4",
     "sass": "^1.58.0"
   }
